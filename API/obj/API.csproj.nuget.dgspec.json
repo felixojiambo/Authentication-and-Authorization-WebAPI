@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\API.csproj": {}
+    "C:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\API.csproj": {
+    "C:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\API.csproj",
+        "projectPath": "C:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ojiamboloc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\obj\\",
+        "outputPath": "C:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
