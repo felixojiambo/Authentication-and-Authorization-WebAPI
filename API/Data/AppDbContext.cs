@@ -8,3 +8,11 @@ namespace API.Data
     {
     }
 }
+//without primary consttructor we use 
+//  public class AppDbContext:IdentityDbContext<AppUser>
+//     {
+//         public AppDbContext(DbContextOptions<AppDbContext> options):base(options)
+//         {
+            
+//         }    
+//     }
