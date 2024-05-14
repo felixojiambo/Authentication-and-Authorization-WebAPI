@@ -47,7 +47,24 @@ builder.Services.AddSwaggerGen(c=>{
         In = ParameterLocation.Header,
         Type = SecuritySchemeType.ApiKey,
         Scheme = "Bearer"
+    });c.AddSecurityRequirement(new OpenApiSecurityRequirement(){
+        {
+            new OpenApiSecurityScheme{
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                },
+                Scheme = "outh2",
+                Name="Bearer",
+                In = ParameterLocation.Header,
+            },
+            new List<string>()
+        }
     });
+
+});
+
 
 var app = builder.Build();
 
@@ -59,7 +76,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
