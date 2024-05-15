@@ -168,3 +168,4 @@ C:\Users\ojiamboloc\Desktop\NET\Auth\API\obj\Debug\net8.0\API.pdb
 C:\Users\ojiamboloc\Desktop\NET\Auth\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\ojiamboloc\Desktop\NET\Auth\API\obj\Debug\net8.0\ref\API.dll
 C:\Users\ojiamboloc\Desktop\NET\Auth\API\bin\Debug\net8.0\RestSharp.dll
+C:\Users\ojiamboloc\Desktop\NET\Auth\API\obj\Debug\net8.0\API.sourcelink.json
