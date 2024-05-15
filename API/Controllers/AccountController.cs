@@ -50,3 +50,44 @@ namespace API.Controllers
             Message = "Account Created Sucessfully!"
         });
 }
+ //api/account/login
+        [AllowAnonymous]
+        [HttpPost("login")]
+
+        public async Task<ActionResult<AuthResponseDto>> Login(LoginDto loginDto)
+        {
+            if(!ModelState.IsValid)
+            {
+               return BadRequest(ModelState);
+            }
+
+            var user = await _userManager.FindByEmailAsync(loginDto.Email);
+
+            if(user is null)
+            {
+                return Unauthorized(new AuthResponseDto{
+                    IsSuccess = false,
+                    Message = "User not found with this email",
+                });
+            }
+
+            var result = await _userManager.CheckPasswordAsync(user,loginDto.Password);
+
+            if(!result){
+                return Unauthorized(new AuthResponseDto{
+                    IsSuccess=false,
+                    Message= "Invalid Password."
+                });
+            }
+
+            
+            var token = GenerateToken(user);
+
+            return Ok(new AuthResponseDto{
+                Token = token,
+                IsSuccess = true,
+                Message = "Login Success."
+            });
+
+
+        }
