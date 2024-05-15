@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YBg9fVw8LWyccPoDU5ZOCNZ7uOGKHWCVhAXoDXSCYyZ6dp6GFPfyj/J/pc0i0j3qDAUTRobOThYzVy3QyUwVtw==",
+  "dgSpecHash": "7xWz+fQO0ajwNPoyK+a0JiLkmTP6bWYdhW5MdVbX1lQlEvb6eCqgAqBda/D7++ISXwvz6BCIe85C8Rka/Fozdg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ojiamboloc\\Desktop\\NET\\Auth\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\ojiamboloc\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ojiamboloc\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\ojiamboloc\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\ojiamboloc\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
     "C:\\Users\\ojiamboloc\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\ojiamboloc\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\ojiamboloc\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",

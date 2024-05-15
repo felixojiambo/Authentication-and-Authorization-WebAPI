@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace API.Dtos
 {
     public class UserDetailDto
@@ -11,6 +9,6 @@ namespace API.Dtos
         public string? PhoneNumber { get; set; }
         public bool TwoFacotrEnabled { get; set; }
         public bool PhoneNumberConfirmed { get; set; }
-        public int AccessFailedCount { get; set; } 
+        public int AccessFailedCount { get; set; }
     }
 }
