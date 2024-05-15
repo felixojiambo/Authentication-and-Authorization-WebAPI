@@ -4,6 +4,6 @@ namespace API.Models
 {
     public class AppUser:IdentityUser
     {
-    public string? Fullname{get;set;}
+    public string? FullName{get;set;}
     }
 }
